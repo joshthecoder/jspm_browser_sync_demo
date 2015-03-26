@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "start": "browser-sync start --server --files app/*.*",
+    "install": "jspm install"
+  },
+  "jspm": {
+    "directories": {
+      "lib": ".",
+      "packages": "jspm_packages"
+    },
+    "dependencies": {
+      "jsx": "github:floatdrop/plugin-jsx@^1.1.0",
+      "react": "npm:react@^0.13.1"
+    }
+  },
+  "devDependencies": {
+    "browser-sync": "^2.4.0",
+    "jspm": "^0.14.0"
+  }
+}
